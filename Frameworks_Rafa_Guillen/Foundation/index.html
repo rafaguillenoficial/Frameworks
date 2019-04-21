@@ -1,0 +1,157 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Gastronómico</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style media="screen">
+      body{
+        background: url(img/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size: cover;
+      }
+      #contenedor{
+        background: rgba(255, 255, 255, 0.9)
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contenedor" class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-6 cell">
+          <h1 class="titulos">Cocina Salvadoreña</h1>
+          <h4 class="slogan"><i>Descubriendo recetas que te hacen recordar los mejores momentos en casa</i></h4>
+          <hr>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+          <br>
+          <div class="cell medium-3">
+            <ul class="vertical tabs" data-tabs id="example-tabs">
+              <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true">Inicio</a></li>
+              <li class="tabs-title"><a href="#panel2v">Mi plato perfecto</a></li>
+              <li class="tabs-title"><a href="#panel3v">Mis recetas</a></li>
+            </ul>
+          </div>
+          <br>
+          <h4 id="favoritos">Favoritos:</h4>
+          <div id="favoritos" class="grid-container">
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 cell"><img src="img/foto1.png" alt="Pupusas" title="Pupusas"></div>
+              <div class="large-4 cell"><img src="img/foto2.png" alt="Tamales" title="Tamales"></div>
+              <div class="large-4 cell"><img src="img/foto3.png" alt="Ceviche" title="Ceviche"></div>
+            </div>
+          </div>
+          <div id="favoritos" class="grid-container">
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 cell"><img src="img/foto4.png" alt="Yuca Frita" title="Yuca Frita"></div>
+              <div class="large-4 cell"><img src="img/foto5.png" alt="Arroz en Leche" title="Arroz en Leche"></div>
+              <div class="large-4 cell"><img src="img/foto6.png" alt="Fresco de Ensalada" title="Fresco de Ensalada"></div>
+            </div>
+          </div>
+          <br>
+          <h4>Historial:</h4>
+
+          <table class="hover">
+            <tbody>
+              <tr>
+                <td>Deliciosas Pupusas Salvadoreñas</td>
+              </tr>
+              <tr>
+                <td>Tamales de Gallina para bautizos</td>
+              </tr>
+              <tr>
+                <td>Ceviche Salvadoreño</td>
+              </tr>
+              <tr>
+                <td>Yuca Frita servida en mata de huerta</td>
+              </tr>
+              <tr>
+                <td>Arroz en leche casero</td>
+              </tr>
+              <tr>
+                <td>Variedad de Frescos de Ensalada</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+
+          <div class="large-6 cell">
+            <br><br id="blank"><br id="blank"><br id="blank"><br id="blank"><br id="blank"><br id="blank">
+            <h3>Pavo con Salsa de Ciruelas</h3>
+            <h6><i>Sábado 20 de abril de 2019</i></h6>
+            <img src="img/receta1.png" alt="Pavo Salvadoreño" text="Pavo Salvadoreño">
+            <p>Dale a tu pavo del día de acción de gracias un toque salvadoreño con esta receta fácil. La salsa de chile ancho y pepitas se transforma en una crujiente capa maravillosa que sella los jugos naturales del pavo. Sirve con tus guarniciones favoritas.</p>
+            <ul>
+              <li>10 tomates Roma</li>
+              <li>1 pimiento verde grande</li>
+              <li>6 cucharadas de aceite de uva</li>
+              <li>1 (de 15 libras) pavo</li>
+              <li>2 manzanas Granny Smith medianas</li>
+              <li>1 1/2 tazas de aceitunas verdes enteras con pimiento</li>
+              <li>4 chiles anchos o chiles Nuevo México</li>                <li>1/2 taza de pepitas crudas</li>
+              <li>1 cebolla mediana</li>
+              <li>5 dientes de ajo</li>
+              <li>4 cucharaditas de MAGGI Caldo Sabor a Pollo Granulado</li>
+              <li>1 cucharada de Café Puro Soluble NESCAFÉ CLÁSICO</li>
+            </ul>
+            <div class="comentarios">
+              <label>
+                <textarea placeholder="Déjanos tu comentario"></textarea>
+                <input type="submit" class="button" value="Submit">
+              </label>
+            </div>
+            <div class="respuestas">
+
+              <p><i id="iconm" class="fas fa-user-alt"></i> Juana La Cubana - <i>Deliciosa receta, sigue adelante con tu trabajo</i> </p>
+              <p><i id="iconm" class="fas fa-user-alt"></i> Maria Alejandra Weis - <i>Desde que me fui de El Salvador extraño mucho el saborcito de mi tierra. Trato de preparar recetas para mis hijos y enseñarles lo rico que se come en mi pais. Felicidades.</i> </p>
+              <p><i id="iconm" class="fas fa-user-alt"></i> Ximena Garcia Perez - <i>Yo siempre espero que sea la epoca de comer pavo para inventar nuevas recetas. Esta esta espectacular.</i> </p>
+            </div>
+
+            <h3>Pupusas de Chicharrón</h3>
+            <h6><i>Domingo 21 de abril de 2019</i></h6>
+            <img src="img/receta2.png" alt="Pupusas de Chicharron" text="Pupusas de Chicharron">
+            <p>Se muele el chicharrón, el tomate, la cebolla y el ajo para formar el relleno. Fríelo todo en una sartén con un poco de aceite.También puede mezclarse el chicharrón con queso. Para hacer la masa para las pupusas, coge un recipiente y mezcla la harina de maíz maseca con el agua templada.</p>
+            <ul>
+              <li>4 tazas de harina de maíz Maseca</li>
+              <li>3 tazas de Agua tibia</li>
+              <li>1½ cucharadas de postre de Sal</li>
+              <li>675 gramos de Chicharrones</li>
+              <li>2 tomates</li>
+              <li>1 cebolla</li>
+              <li>1 diente de Ajo</li>
+            </ul>
+            <div class="comentarios">
+              <label>
+                <textarea placeholder="Déjanos tu comentario"></textarea>
+                <input type="submit" class="button" value="Submit">
+              </label>
+            </div>
+
+            <div class="respuestas">
+              <i class="fi-results-demographics"></i>
+              <p><i id="iconm" class="fas fa-user-alt"></i> Juana La Cubana - <i>Deliciosa receta, sigue adelante con tu trabajo</i> </p>
+              <p><i id="iconm" class="fas fa-user-alt"></i> Maria Alejandra Weis - <i>Desde que me fui de El Salvador extraño mucho el saborcito de mi tierra. Trato de preparar recetas para mis hijos y enseñarles lo rico que se come en mi pais. Felicidades.</i> </p>
+              <p><i id="iconm" class="fas fa-user-alt"></i> Ximena Garcia Perez - <i>Yo siempre espero que sea la epoca de comer pavo para inventar nuevas recetas. Esta esta espectacular.</i> </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

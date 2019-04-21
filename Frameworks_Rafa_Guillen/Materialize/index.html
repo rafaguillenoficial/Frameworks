@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+   <meta name="description" content="Blog de Viajes">
+   <meta name="keywords" content="Viajar, Fotografia, Airbnb">
+   <meta name="author" content="Rafa Guillén">
+   <title>Blog de Viaje</title>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen, projection"/>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   <link rel="shortcut icon" href="img/fav.png">
+   <style media="screen">
+     body{
+       background: url(img/bg.png) no-repeat center center fixed;
+       -webkit-background-size:cover;
+       -moz-background-size:cover;
+       -o-background-size:cover;
+       background-size: cover;
+     }
+     #contenedor{
+       background: rgba(255, 255, 255, 0.9)
+     }
+   </style>
+ </head>
+ <body class="card-panel grey lighten-5">
+   <div id="contenedor" class="container">
+     <div class="row card-panel light-blue darken-3">
+       <div class="col s12 m8 l4">
+         <img class="z-depth-2" id="logo" src="img/logo.png" alt="logo">
+       </div>
+        <div class="row">
+          <div class="col s12 m4 l8">
+            <nav>
+              <div class="nav-wrapper blue-grey">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Viajes Favoritos</a></li>
+                  <li><a href="#">Recomendaciones</a></li>
+                </ul>
+              </div>
+            </nav>
+            <ul class="sidenav" id="mobile-demo">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Viajes Favoritos</a></li>
+              <li><a href="#">Recomendaciones</a></li>
+            </ul>
+          </div>
+          <div class="col s12 m4 l8">
+            <h3 class="flow-text white-text">Nuestro blog de viajes</h3>
+          </div>
+        </div>
+     </div>
+
+     <div class="row card-panel yellow darken-3">
+       <div id="social-icons" class="col s12 m1 l1">
+         <i class="fab fa-facebook"></i>
+         <i class="fab fa-instagram"></i>
+         <i class="fab fa-twitter-square"></i>
+         <i class="fab fa-youtube-square"></i>
+         <i class="fab fa-pinterest-square"></i>
+       </div>
+       <div id="fotos" class="col s12 m4 l4">
+        <img class="z-depth-2" src="img/img1.png" alt="foto1">
+        <img class="z-depth-2" src="img/img2.png" alt="foto2">
+        </div>
+       <div id="fotos" class="col s12 m3 l3">
+        <img class="z-depth-2" src="img/img3.png" alt="foto3">
+        </div>
+       <div id="fotos" class="col s12 m4 l4">
+        <img class="z-depth-2" src="img/img4.png" alt="foto4">
+        <img class="z-depth-2" src="img/img5.png" alt="foto5">
+        </div>
+     </div>
+
+     <div class="row">
+       <div class="col s12 m8 l8">
+         <h4>Mi viaje a Los Angeles</h4>
+         <p id="demo"></p>
+         <div class="row">
+           <div class="col s12 m6 l6">
+            <img class="z-depth-2" id="losangeles" src="img/losangeles.png" alt="Los Angeles">
+           </div>
+           <div class="col s12 m6 l6"></div>
+           <p>Aquí tenéis el resumen de mis tres días y medio por la ciudad de Los Ángeles. A pesar de hacer miles de cosas, y que sea muy divertido reconocer muchos escenarios de las famosas películas de Hollywood, confieso que la ciudad no me acabó de enganchar. Probablemente  para encontrarle el encanto y disfrutar de su gran multiculturalidad haya que vivir en ella. A mí, desde luego el tiempo no me llegó a nada y sólo me pareció una ciudad bastante superficial y caótica en general.</p>
+           <p>Quizás no me haya convencido esta enorme metrópolis porque visitarla sin coche es bastante complicado. Por increíble que parezca esta ciudad está exclusivamente pensada para aquellos que tienen vehículo propio.<br>El transporte público es prácticamente inexistente y las distancias (a pesar de ser una campeona del pateo) a veces resultaron inalcanzables.<br>La mejor forma de moverse es el metro. Es bastante nuevo pero, desgraciadamente, tiene muy poquitas líneas por ahora. Aquí puedes descargarte el Mapa del MetroRail de Los Ángeles.</p>
+         </div>
+
+         <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Deja tu comentario</label>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+       </div>
+
+      <div class="col s12 m4 l4 center">
+          <img id="perfil" class="circle" src="img/perfil.jpg" alt="Foto de Perfil">
+          <h4>Perfil del Autor</h4>
+          <p>Rafa Guillén es un Cantautor Salvadoreño de género latin/pop y pop/balada, cuenta con más de 15 años de trayectoria musical. Ha producido más de 26 temas musicales, dos producciones discográficas, y a abierto conciertos nacionales y giras internacionales.<br>
+          El lanzamiento de su primer disco titulado “Futuro Pasado” fue en el 2004, del cual se obtuvo mucha aceptación en las radios nacionales e internacionales. Su tema “Perdido por una mujer” fue la punta de lanza con la que Guillén se lanza al espectáculo musical.</p>
+      </div>
+    </div>
+   </div>
+
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script type="text/javascript" src="js/materialize.min.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){
+       $('.sidenav').sidenav();
+    });
+   </script>
+   <script>
+   var d = new Date();
+   document.getElementById("demo").innerHTML = d;
+   </script>
+ </body>
+</html>
